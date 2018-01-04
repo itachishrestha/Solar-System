@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <link href='https://fonts.googleapis.com/css?family=Sigmar+One' rel='stylesheet' type='text/css'>
+     <meta charset="UTF-8">
+     <title>Solar System</title>
+     <style>
+    h1{color:#ffffff;font-family: 'Sigmar One', cursive;}
+    body{text-align:center;background-color:black;background-image: url("images/sky.jpg");
+
+     </style>
+   </head>
+   <body>
+ <table>
+   <tr>
+   <td> <h1 onmouseover="this.style.color='gray'" onmouseout="this.style.color='#ffffff'"> The Solar System </h1> </td>
+
+   <td>   <button onclick="myFunction()">Solar System fact</button>
+
+ <script>
+function myFunction() {
+    alert("The Solar System was formed approximately 4.6 billion years ago ");
+}
+</script>  </td> 
+   </tr>
+</table>
+
+   <img src="images/system.png" height="100%" width="100%" usemap="#solar" border="0">
+  
+
+
+   <map name ="solar">
+   
+   <area shape="rect" coords="212,19,329,498"
+    href="earth.html">
+
+   <area shape="rect" coords="741,19,856,497"
+   href="saturn.html">
+
+   <area shape="rect" coords="475,18,593,498"
+   href="mars.html">
+   </map>
+
+
+
+   </body>
+ </html>
